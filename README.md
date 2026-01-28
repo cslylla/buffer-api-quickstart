@@ -116,7 +116,7 @@ postman/buffer-quickstart.json
 - `base_url` — API base URL
 - `access_token` — OAuth access token
 - `post_id` — Auto-populated after creating a post
-The Create Post request automatically saves post_id for subsequent requests.
+The Create Post request automatically saves `post_id` for subsequent requests.
 
 ## Troubleshooting
 ### 401 Missing Authorization header
@@ -129,7 +129,7 @@ Authorization: Bearer <token>
 The token is not present in data/tokens.json or is outdated.
 
 ### 404 Profile not found
-POST /posts requires a valid profile_id from GET /profiles.
+POST /posts requires a valid profile_id from GET `/profiles`.
 
 ### 422 Validation error
 The request body is missing required fields or has invalid types.
@@ -137,7 +137,7 @@ Inspect the response for field-level errors.
 
 ## Developer Experience Notes
 This project intentionally mirrors real-world API onboarding patterns:
-- Deterministic mock analytics (same post_id → same metrics)
+- Deterministic mock analytics (same `post_id` → same metrics)
 - Local JSON persistence (data/*.json) so the demo survives restarts
 - Clear separation between API, examples, and tooling
 - Minimal but realistic endpoint surface area
@@ -146,7 +146,7 @@ This project intentionally mirrors real-world API onboarding patterns:
 Possible extensions for a production-ready starter kit:
 - OAuth scopes + per-endpoint enforcement
 - Pagination for list endpoints
-- Idempotency keys for POST /posts
+- Idempotency keys for POST `/posts`
 - Webhook simulation for post lifecycle events
 - Tiny UI walkthrough for first-time developers
 
