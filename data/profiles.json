@@ -1,0 +1,14 @@
+[
+  {
+    "id": "prof_1",
+    "service": "twitter",
+    "username": "buffer_demo",
+    "timezone": "Europe/Zurich"
+  },
+  {
+    "id": "prof_2",
+    "service": "linkedin",
+    "username": "buffer-demo-company",
+    "timezone": "Europe/Zurich"
+  }
+]

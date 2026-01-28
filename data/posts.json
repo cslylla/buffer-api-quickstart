@@ -1,0 +1,30 @@
+{
+  "post_d04b61fc0b": {
+    "id": "post_d04b61fc0b",
+    "profile_id": "prof_1",
+    "text": "Hello from the mock Buffer API!",
+    "scheduled_at": 2000000000,
+    "created_at": 1769595553
+  },
+  "post_958a49706f": {
+    "id": "post_958a49706f",
+    "profile_id": "prof_1",
+    "text": "Hello from examples/schedule_post.py",
+    "scheduled_at": 1769599777,
+    "created_at": 1769596177
+  },
+  "post_6c4cd7a11c": {
+    "id": "post_6c4cd7a11c",
+    "profile_id": "prof_1",
+    "text": "Hello from Postman",
+    "scheduled_at": 2000000000,
+    "created_at": 1769597659
+  },
+  "post_5d3b7a51b3": {
+    "id": "post_5d3b7a51b3",
+    "profile_id": "prof_1",
+    "text": "Hello from Postman",
+    "scheduled_at": 2000000000,
+    "created_at": 1769597881
+  }
+}

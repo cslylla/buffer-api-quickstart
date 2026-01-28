@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes import health
+from app.routes import health, oauth, profiles, posts, analytics
 
 app = FastAPI(
     title="Buffer API Quickstart (Mock)",
@@ -8,3 +8,7 @@ app = FastAPI(
 )
 
 app.include_router(health.router)
+app.include_router(oauth.router)
+app.include_router(profiles.router)
+app.include_router(posts.router)
+app.include_router(analytics.router)
